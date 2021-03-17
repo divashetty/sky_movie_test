@@ -14,8 +14,10 @@ const Search = ({ onSearch }) => {
 
   const searchHandler = (e) => {
     e.preventDefault();
+    if(searchValue){
     onSearch(searchValue);
     setSearchValue("");
+  }
   };
 
   return (

@@ -45,7 +45,7 @@ const MovieInfo = ({ closeMovieInfo, currentMovie }) => {
 };
 
 MovieInfo.propTypes = {
-    currentMovie: PropTypes.array,
+    currentMovie: PropTypes.object,
     media_type:PropTypes.string,
     profile_path:PropTypes.string,
     poster_path:PropTypes.string,
